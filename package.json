@@ -1,0 +1,22 @@
+{
+  "name": "ejs-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "17.1.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.4"
+  }
+}
