@@ -18,7 +18,7 @@ const app = express();
 //    useUnifiedTopology: true
 // });
 // mongodb+srv://admin-kasturi:Test123@cluster0.huo28.mongodb.net/?retryWrites=true&w=majority
-mongoose.connect("mongodb+srv://admin-kasturi:Test123@cluster0.huo28.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-kasturi:Test123@cluster0.huo28.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true, dbName: 'BlogDB'});
 const blogSchema = new mongoose.Schema({
   title: {
     type: String,
